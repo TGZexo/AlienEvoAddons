@@ -1,0 +1,106 @@
+{
+  "_fv": 73,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "alienforcecollar",
+    "enableBody": true,
+    "textureBody": "ben10_og_chest",
+    "enableLeggings": true,
+    "textureLeggings": "ben10_og_pants",
+    "enableBoots": true,
+    "textureBoots": "ben10_og_shoes",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:AlienEvoOutfit"
+      }
+    ],
+    "armorTextureFile": "ben_og",
+    "helmetName": "Ben 10 [Alien Force] | Collar",
+    "bodyName": "Ben 10 [Original] | Shirt",
+    "leggingsName": "Ben 10 [Original] | Pants",
+    "bootsName": "Ben 10 [Original] | Shoes",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": [
+        "From the Original Design of Ben from Ben 10 [OG]"
+      ]
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": [
+        "From the Original Design of Ben from Ben 10 [OG]"
+      ]
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": [
+        "From the Original Design of Ben from Ben 10 [OG]"
+      ]
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "ModelSkinTightSuit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LArm",
+    "armsModelPartR": "RArm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "ModelSkinTightBoots",
+    "leggingsModelPartL": "LLeg",
+    "leggingsModelPartR": "RLeg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "ModelSkinTightBoots",
+    "bootsModelPartL": "LLeg",
+    "bootsModelPartR": "RLeg",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 15,
+    "damageValueHelmet": 1,
+    "damageValueBody": 1,
+    "damageValueLeggings": 1,
+    "damageValueBoots": 1,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": []
+  }
+}

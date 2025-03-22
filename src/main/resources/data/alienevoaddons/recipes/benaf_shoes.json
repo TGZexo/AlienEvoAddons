@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "alienevoaddons:roll_of_fabric_white"
+    },
+    "b": {
+      "item": "alienevoaddons:roll_of_fabric_black"
+    }
+  },
+  "result": {
+    "item": "alienevoaddons:ben_10_alien_force_outfit_boots",
+    "count": 1
+  }
+}

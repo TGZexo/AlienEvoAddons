@@ -1,0 +1,134 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.alienevoaddons.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+
+import net.minecraft.world.item.Item;
+
+import net.mcreator.alienevoaddons.item.XLR8Item;
+import net.mcreator.alienevoaddons.item.WildmuttItem;
+import net.mcreator.alienevoaddons.item.UpgradeItem;
+import net.mcreator.alienevoaddons.item.SwampfireItem;
+import net.mcreator.alienevoaddons.item.StinkflyItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricYellowItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricWhiteItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricRedItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricPurpleItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricPinkItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricOrangeItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricMagentaItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricLimeItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricLightGreyItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricLightBlueItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricGreyItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricGreenItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricCyanItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricBrownItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricBlueItem;
+import net.mcreator.alienevoaddons.item.RollOfFabricBlackItem;
+import net.mcreator.alienevoaddons.item.RipjawsItem;
+import net.mcreator.alienevoaddons.item.OmnitrixIconItem;
+import net.mcreator.alienevoaddons.item.JetrayItem;
+import net.mcreator.alienevoaddons.item.InvisArmorItem;
+import net.mcreator.alienevoaddons.item.HumungousaurItem;
+import net.mcreator.alienevoaddons.item.HeatblastItem;
+import net.mcreator.alienevoaddons.item.GreymatterItem;
+import net.mcreator.alienevoaddons.item.GhostfreakItem;
+import net.mcreator.alienevoaddons.item.FourArmsItem;
+import net.mcreator.alienevoaddons.item.EchoEchoItem;
+import net.mcreator.alienevoaddons.item.DiamondHeadItem;
+import net.mcreator.alienevoaddons.item.ChromastoneItem;
+import net.mcreator.alienevoaddons.item.CannonboltItem;
+import net.mcreator.alienevoaddons.item.BigChillItem;
+import net.mcreator.alienevoaddons.item.Ben10RebootItem;
+import net.mcreator.alienevoaddons.item.Ben10OmnitrixlessItem;
+import net.mcreator.alienevoaddons.item.Ben10OmniItem;
+import net.mcreator.alienevoaddons.item.Ben10OGItem;
+import net.mcreator.alienevoaddons.item.Ben10AlienForceOutfitItem;
+import net.mcreator.alienevoaddons.item.AtomixItem;
+import net.mcreator.alienevoaddons.item.AlbedoRebootItem;
+import net.mcreator.alienevoaddons.item.AlbedoOmnitrixlessItem;
+import net.mcreator.alienevoaddons.item.AlbedoOmniItem;
+import net.mcreator.alienevoaddons.item.AlbedoOGItem;
+import net.mcreator.alienevoaddons.item.AlbedoAlienForceItem;
+import net.mcreator.alienevoaddons.AlienevoaddonsMod;
+
+public class AlienevoaddonsModItems {
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AlienevoaddonsMod.MODID);
+	public static final RegistryObject<Item> BEN_10_ALIEN_FORCE_OUTFIT_CHESTPLATE = REGISTRY.register("ben_10_alien_force_outfit_chestplate", () -> new Ben10AlienForceOutfitItem.Chestplate());
+	public static final RegistryObject<Item> BEN_10_ALIEN_FORCE_OUTFIT_LEGGINGS = REGISTRY.register("ben_10_alien_force_outfit_leggings", () -> new Ben10AlienForceOutfitItem.Leggings());
+	public static final RegistryObject<Item> BEN_10_ALIEN_FORCE_OUTFIT_BOOTS = REGISTRY.register("ben_10_alien_force_outfit_boots", () -> new Ben10AlienForceOutfitItem.Boots());
+	public static final RegistryObject<Item> BEN_10_OG_CHESTPLATE = REGISTRY.register("ben_10_og_chestplate", () -> new Ben10OGItem.Chestplate());
+	public static final RegistryObject<Item> BEN_10_OG_LEGGINGS = REGISTRY.register("ben_10_og_leggings", () -> new Ben10OGItem.Leggings());
+	public static final RegistryObject<Item> BEN_10_OG_BOOTS = REGISTRY.register("ben_10_og_boots", () -> new Ben10OGItem.Boots());
+	public static final RegistryObject<Item> BEN_10_OMNI_CHESTPLATE = REGISTRY.register("ben_10_omni_chestplate", () -> new Ben10OmniItem.Chestplate());
+	public static final RegistryObject<Item> BEN_10_OMNI_LEGGINGS = REGISTRY.register("ben_10_omni_leggings", () -> new Ben10OmniItem.Leggings());
+	public static final RegistryObject<Item> BEN_10_OMNI_BOOTS = REGISTRY.register("ben_10_omni_boots", () -> new Ben10OmniItem.Boots());
+	public static final RegistryObject<Item> BEN_10_OMNITRIXLESS_CHESTPLATE = REGISTRY.register("ben_10_omnitrixless_chestplate", () -> new Ben10OmnitrixlessItem.Chestplate());
+	public static final RegistryObject<Item> BEN_10_OMNITRIXLESS_LEGGINGS = REGISTRY.register("ben_10_omnitrixless_leggings", () -> new Ben10OmnitrixlessItem.Leggings());
+	public static final RegistryObject<Item> BEN_10_OMNITRIXLESS_BOOTS = REGISTRY.register("ben_10_omnitrixless_boots", () -> new Ben10OmnitrixlessItem.Boots());
+	public static final RegistryObject<Item> BEN_10_REBOOT_CHESTPLATE = REGISTRY.register("ben_10_reboot_chestplate", () -> new Ben10RebootItem.Chestplate());
+	public static final RegistryObject<Item> BEN_10_REBOOT_LEGGINGS = REGISTRY.register("ben_10_reboot_leggings", () -> new Ben10RebootItem.Leggings());
+	public static final RegistryObject<Item> BEN_10_REBOOT_BOOTS = REGISTRY.register("ben_10_reboot_boots", () -> new Ben10RebootItem.Boots());
+	public static final RegistryObject<Item> ALBEDO_OG_CHESTPLATE = REGISTRY.register("albedo_og_chestplate", () -> new AlbedoOGItem.Chestplate());
+	public static final RegistryObject<Item> ALBEDO_OG_LEGGINGS = REGISTRY.register("albedo_og_leggings", () -> new AlbedoOGItem.Leggings());
+	public static final RegistryObject<Item> ALBEDO_OG_BOOTS = REGISTRY.register("albedo_og_boots", () -> new AlbedoOGItem.Boots());
+	public static final RegistryObject<Item> ALBEDO_ALIEN_FORCE_CHESTPLATE = REGISTRY.register("albedo_alien_force_chestplate", () -> new AlbedoAlienForceItem.Chestplate());
+	public static final RegistryObject<Item> ALBEDO_ALIEN_FORCE_LEGGINGS = REGISTRY.register("albedo_alien_force_leggings", () -> new AlbedoAlienForceItem.Leggings());
+	public static final RegistryObject<Item> ALBEDO_ALIEN_FORCE_BOOTS = REGISTRY.register("albedo_alien_force_boots", () -> new AlbedoAlienForceItem.Boots());
+	public static final RegistryObject<Item> ALBEDO_OMNI_CHESTPLATE = REGISTRY.register("albedo_omni_chestplate", () -> new AlbedoOmniItem.Chestplate());
+	public static final RegistryObject<Item> ALBEDO_OMNI_LEGGINGS = REGISTRY.register("albedo_omni_leggings", () -> new AlbedoOmniItem.Leggings());
+	public static final RegistryObject<Item> ALBEDO_OMNI_BOOTS = REGISTRY.register("albedo_omni_boots", () -> new AlbedoOmniItem.Boots());
+	public static final RegistryObject<Item> ALBEDO_OMNITRIXLESS_CHESTPLATE = REGISTRY.register("albedo_omnitrixless_chestplate", () -> new AlbedoOmnitrixlessItem.Chestplate());
+	public static final RegistryObject<Item> ALBEDO_OMNITRIXLESS_LEGGINGS = REGISTRY.register("albedo_omnitrixless_leggings", () -> new AlbedoOmnitrixlessItem.Leggings());
+	public static final RegistryObject<Item> ALBEDO_OMNITRIXLESS_BOOTS = REGISTRY.register("albedo_omnitrixless_boots", () -> new AlbedoOmnitrixlessItem.Boots());
+	public static final RegistryObject<Item> ALBEDO_REBOOT_CHESTPLATE = REGISTRY.register("albedo_reboot_chestplate", () -> new AlbedoRebootItem.Chestplate());
+	public static final RegistryObject<Item> ALBEDO_REBOOT_LEGGINGS = REGISTRY.register("albedo_reboot_leggings", () -> new AlbedoRebootItem.Leggings());
+	public static final RegistryObject<Item> ALBEDO_REBOOT_BOOTS = REGISTRY.register("albedo_reboot_boots", () -> new AlbedoRebootItem.Boots());
+	public static final RegistryObject<Item> OMNITRIX_ICON = REGISTRY.register("omnitrix_icon", () -> new OmnitrixIconItem());
+	public static final RegistryObject<Item> HEATBLAST = REGISTRY.register("heatblast", () -> new HeatblastItem());
+	public static final RegistryObject<Item> WILDMUTT = REGISTRY.register("wildmutt", () -> new WildmuttItem());
+	public static final RegistryObject<Item> DIAMOND_HEAD = REGISTRY.register("diamond_head", () -> new DiamondHeadItem());
+	public static final RegistryObject<Item> XLR_8 = REGISTRY.register("xlr_8", () -> new XLR8Item());
+	public static final RegistryObject<Item> GREYMATTER = REGISTRY.register("greymatter", () -> new GreymatterItem());
+	public static final RegistryObject<Item> FOUR_ARMS = REGISTRY.register("four_arms", () -> new FourArmsItem());
+	public static final RegistryObject<Item> STINKFLY = REGISTRY.register("stinkfly", () -> new StinkflyItem());
+	public static final RegistryObject<Item> RIPJAWS = REGISTRY.register("ripjaws", () -> new RipjawsItem());
+	public static final RegistryObject<Item> UPGRADE = REGISTRY.register("upgrade", () -> new UpgradeItem());
+	public static final RegistryObject<Item> GHOSTFREAK = REGISTRY.register("ghostfreak", () -> new GhostfreakItem());
+	public static final RegistryObject<Item> CANNONBOLT = REGISTRY.register("cannonbolt", () -> new CannonboltItem());
+	public static final RegistryObject<Item> SWAMPFIRE = REGISTRY.register("swampfire", () -> new SwampfireItem());
+	public static final RegistryObject<Item> ECHO_ECHO = REGISTRY.register("echo_echo", () -> new EchoEchoItem());
+	public static final RegistryObject<Item> HUMUNGOUSAUR = REGISTRY.register("humungousaur", () -> new HumungousaurItem());
+	public static final RegistryObject<Item> JETRAY = REGISTRY.register("jetray", () -> new JetrayItem());
+	public static final RegistryObject<Item> BIG_CHILL = REGISTRY.register("big_chill", () -> new BigChillItem());
+	public static final RegistryObject<Item> CHROMASTONE = REGISTRY.register("chromastone", () -> new ChromastoneItem());
+	public static final RegistryObject<Item> ATOMIX = REGISTRY.register("atomix", () -> new AtomixItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_WHITE = REGISTRY.register("roll_of_fabric_white", () -> new RollOfFabricWhiteItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_LIGHT_GREY = REGISTRY.register("roll_of_fabric_light_grey", () -> new RollOfFabricLightGreyItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_GREY = REGISTRY.register("roll_of_fabric_grey", () -> new RollOfFabricGreyItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_BLACK = REGISTRY.register("roll_of_fabric_black", () -> new RollOfFabricBlackItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_BROWN = REGISTRY.register("roll_of_fabric_brown", () -> new RollOfFabricBrownItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_RED = REGISTRY.register("roll_of_fabric_red", () -> new RollOfFabricRedItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_ORANGE = REGISTRY.register("roll_of_fabric_orange", () -> new RollOfFabricOrangeItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_YELLOW = REGISTRY.register("roll_of_fabric_yellow", () -> new RollOfFabricYellowItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_LIME = REGISTRY.register("roll_of_fabric_lime", () -> new RollOfFabricLimeItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_GREEN = REGISTRY.register("roll_of_fabric_green", () -> new RollOfFabricGreenItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_CYAN = REGISTRY.register("roll_of_fabric_cyan", () -> new RollOfFabricCyanItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_LIGHT_BLUE = REGISTRY.register("roll_of_fabric_light_blue", () -> new RollOfFabricLightBlueItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_BLUE = REGISTRY.register("roll_of_fabric_blue", () -> new RollOfFabricBlueItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_PURPLE = REGISTRY.register("roll_of_fabric_purple", () -> new RollOfFabricPurpleItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_MAGENTA = REGISTRY.register("roll_of_fabric_magenta", () -> new RollOfFabricMagentaItem());
+	public static final RegistryObject<Item> ROLL_OF_FABRIC_PINK = REGISTRY.register("roll_of_fabric_pink", () -> new RollOfFabricPinkItem());
+	public static final RegistryObject<Item> INVIS_ARMOR_HELMET = REGISTRY.register("invis_armor_helmet", () -> new InvisArmorItem.Helmet());
+	public static final RegistryObject<Item> INVIS_ARMOR_CHESTPLATE = REGISTRY.register("invis_armor_chestplate", () -> new InvisArmorItem.Chestplate());
+	public static final RegistryObject<Item> INVIS_ARMOR_LEGGINGS = REGISTRY.register("invis_armor_leggings", () -> new InvisArmorItem.Leggings());
+	public static final RegistryObject<Item> INVIS_ARMOR_BOOTS = REGISTRY.register("invis_armor_boots", () -> new InvisArmorItem.Boots());
+	// Start of user code block custom items
+	// End of user code block custom items
+}

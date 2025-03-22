@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "alienevoaddons:roll_of_fabric_brown"
+    }
+  },
+  "result": {
+    "item": "alienevoaddons:ben_10_omni_leggings",
+    "count": 1
+  }
+}

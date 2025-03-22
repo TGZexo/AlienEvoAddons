@@ -1,0 +1,1618 @@
+{
+  "mod_elements": [
+    {
+      "name": "ReduceOmniTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_omni_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/ReduceOmniTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "OnWorldLoad",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_world_load",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/OnWorldLoadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "DeTransformCommandYes",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "de_transform_command_yes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/command/DeTransformCommandYesCommand.java"
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "DenyDeTransform",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deny_de_transform",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/command/DenyDeTransformCommand.java"
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "AcceptDeTransform",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accept_de_transform",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/AcceptDeTransformProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "ReduceTimer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reduce_timer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/ReduceTimerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DenyProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deny_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/DenyProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "OnJoinSet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_join_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/procedures/OnJoinSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DeTransformation"
+    },
+    {
+      "name": "Ben10AlienForceOutfit",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_10_alien_force_outfit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_alien_force_outfit_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_alien_force_outfit_leggings.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/Ben10AlienForceOutfitItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_alien_force_outfit_boots.json"
+        ]
+      },
+      "path": "~/Outfits/BenAlienForce"
+    },
+    {
+      "name": "AlienEvoOutfit",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_evo_outfit",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Outfits"
+    },
+    {
+      "name": "Ben10OG",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_10_og",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_og_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_og_leggings.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_og_boots.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/Ben10OGItem.java"
+        ]
+      },
+      "path": "~/Outfits/BenOG"
+    },
+    {
+      "name": "Ben10Omni",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_10_omni",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omni_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omni_leggings.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omni_boots.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/Ben10OmniItem.java"
+        ]
+      },
+      "path": "~/Outfits/BenOmni"
+    },
+    {
+      "name": "Ben10Omnitrixless",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_10_omnitrixless",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omnitrixless_boots.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omnitrixless_chestplate.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/Ben10OmnitrixlessItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_omnitrixless_leggings.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmnitrixless"
+    },
+    {
+      "name": "Ben10Reboot",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ben_10_reboot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/Ben10RebootItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_reboot_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_reboot_boots.json",
+          "src/main/resources/assets/alienevoaddons/models/item/ben_10_reboot_leggings.json"
+        ]
+      },
+      "path": "~/Outfits/BenReboot"
+    },
+    {
+      "name": "AlbedoOG",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albedo_og",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/AlbedoOGItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_og_leggings.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_og_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_og_boots.json"
+        ]
+      },
+      "path": "~/Outfits/AlbedoYoung"
+    },
+    {
+      "name": "AlbedoAlienForce",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albedo_alien_force",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/AlbedoAlienForceItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_alien_force_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_alien_force_boots.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_alien_force_leggings.json"
+        ]
+      },
+      "path": "~/Outfits/AlbedoAlienForce"
+    },
+    {
+      "name": "AlbedoOmni",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albedo_omni",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omni_leggings.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omni_chestplate.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/AlbedoOmniItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omni_boots.json"
+        ]
+      },
+      "path": "~/Outfits/AlbedoOmni"
+    },
+    {
+      "name": "AlbedoOmnitrixless",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albedo_omnitrixless",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/AlbedoOmnitrixlessItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omnitrixless_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omnitrixless_boots.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_omnitrixless_leggings.json"
+        ]
+      },
+      "path": "~/Outfits/AlbedoOmnitrixless"
+    },
+    {
+      "name": "AlbedoReboot",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "albedo_reboot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_reboot_leggings.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/AlbedoRebootItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_reboot_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/albedo_reboot_boots.json"
+        ]
+      },
+      "path": "~/Outfits/AlbedoReboot"
+    },
+    {
+      "name": "AllowHelpingDetransform",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allow_helping_detransform",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/GameRules"
+    },
+    {
+      "name": "BaseFormHelpingDetransformation",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_form_helping_detransformation",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/GameRules"
+    },
+    {
+      "name": "MasterControlTimer",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "master_control_timer",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/GameRules"
+    },
+    {
+      "name": "OmnitrixIcon",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omnitrix_icon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/OmnitrixIconItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/omnitrix_icon.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "AlienIcons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_icons",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Heatblast",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heatblast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/HeatblastItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/heatblast.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Wildmutt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wildmutt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/WildmuttItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/wildmutt.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "DiamondHead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/diamond_head.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/DiamondHeadItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "XLR8",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xlr_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/xlr_8.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/XLR8Item.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Greymatter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "greymatter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/greymatter.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/GreymatterItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "FourArms",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four_arms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/FourArmsItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/four_arms.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Stinkfly",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stinkfly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/StinkflyItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/stinkfly.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Ripjaws",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ripjaws",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RipjawsItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/ripjaws.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Upgrade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/UpgradeItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/upgrade.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Ghostfreak",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghostfreak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/GhostfreakItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/ghostfreak.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Cannonbolt",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannonbolt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/CannonboltItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/cannonbolt.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Swampfire",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swampfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/swampfire.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/SwampfireItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "EchoEcho",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_echo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/echo_echo.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/EchoEchoItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Humungousaur",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humungousaur",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/humungousaur.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/HumungousaurItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Jetray",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetray",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/jetray.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/JetrayItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "BigChill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_chill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/big_chill.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/BigChillItem.java"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Chromastone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chromastone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/ChromastoneItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/chromastone.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "Atomix",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atomix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/AtomixItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/atomix.json"
+        ]
+      },
+      "path": "~/AlienIcons"
+    },
+    {
+      "name": "RollOfFabricWhite",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_white.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricWhiteItem.java"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricWhiteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_white_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_white_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLightGrey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_light_grey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricLightGreyItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_light_grey.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLightGreyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_light_grey_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_light_grey_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "AlienEvoAddonsFabrics",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_evo_addons_fabrics",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricGrey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_grey",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_grey.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricGreyItem.java"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricGreyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_grey_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_grey_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBlack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_black",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricBlackItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_black.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBlackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_black_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_black_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBrown",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_brown",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_brown.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricBrownItem.java"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBrownRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_brown_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_brown_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricRed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_red",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_red.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricRedItem.java"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricRedRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_red_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_red_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricOrange",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_orange",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricOrangeItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_orange.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricOrangeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_orange_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_orange_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricYellow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_yellow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricYellowItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_yellow.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricYellowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_yellow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_yellow_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_lime",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricLimeItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_lime.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLimeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_lime_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_lime_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricGreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricGreenItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_green.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricGreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_green_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_green_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricCyan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_cyan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricCyanItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_cyan.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricCyanRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_cyan_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_cyan_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLightBlue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_light_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricLightBlueItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_light_blue.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricLightBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_light_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_light_blue_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBlue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_blue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricBlueItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_blue.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricBlueRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_blue_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_blue_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricPurple",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricPurpleItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_purple.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricPurpleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_purple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_purple_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricMagenta",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_magenta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_magenta.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricMagentaItem.java"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricMagentaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_magenta_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_magenta_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricPink",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_pink",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/alienevoaddons/item/RollOfFabricPinkItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/roll_of_fabric_pink.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "RollOfFabricPinkRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_of_fabric_pink_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/roll_of_fabric_pink_recipe.json"
+        ]
+      },
+      "path": "~/Fabrics"
+    },
+    {
+      "name": "BENAFTop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benaf_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benaf_top.json"
+        ]
+      },
+      "path": "~/Outfits/BenAlienForce"
+    },
+    {
+      "name": "BENAFUnder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benaf_under",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benaf_under.json"
+        ]
+      },
+      "path": "~/Outfits/BenAlienForce"
+    },
+    {
+      "name": "BENAFShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benaf_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benaf_shoes.json"
+        ]
+      },
+      "path": "~/Outfits/BenAlienForce"
+    },
+    {
+      "name": "BENOGShirt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benog_shirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benog_shirt.json"
+        ]
+      },
+      "path": "~/Outfits/BenOG"
+    },
+    {
+      "name": "BENOGPants",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benog_pants",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benog_pants.json"
+        ]
+      },
+      "path": "~/Outfits/BenOG"
+    },
+    {
+      "name": "BENOGShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benog_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benog_shoes.json"
+        ]
+      },
+      "path": "~/Outfits/BenOG"
+    },
+    {
+      "name": "BENOMNIShirt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomni_shirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomni_shirt.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmni"
+    },
+    {
+      "name": "BENOMNIPants",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomni_pants",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomni_pants.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmni"
+    },
+    {
+      "name": "BENOMNIShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomni_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomni_shoes.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmni"
+    },
+    {
+      "name": "BENOMNILESSTop",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomniless_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomniless_top.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmnitrixless"
+    },
+    {
+      "name": "BENOMNILESSBottom",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomniless_bottom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomniless_bottom.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmnitrixless"
+    },
+    {
+      "name": "BENOMNILESSShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benomniless_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benomniless_shoes.json"
+        ]
+      },
+      "path": "~/Outfits/BenOmnitrixless"
+    },
+    {
+      "name": "BENREBOOTShirt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benreboot_shirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benreboot_shirt.json"
+        ]
+      },
+      "path": "~/Outfits/BenReboot"
+    },
+    {
+      "name": "BENREBOOTPants",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benreboot_pants",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benreboot_pants.json"
+        ]
+      },
+      "path": "~/Outfits/BenReboot"
+    },
+    {
+      "name": "BENREBOOTShoes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "benreboot_shoes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/benreboot_shoes.json"
+        ]
+      },
+      "path": "~/Outfits/BenReboot"
+    },
+    {
+      "name": "InvisArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/alienevoaddons/models/item/invis_armor_helmet.json",
+          "src/main/resources/assets/alienevoaddons/models/item/invis_armor_leggings.json",
+          "src/main/java/net/mcreator/alienevoaddons/item/InvisArmorItem.java",
+          "src/main/resources/assets/alienevoaddons/models/item/invis_armor_chestplate.json",
+          "src/main/resources/assets/alienevoaddons/models/item/invis_armor_boots.json"
+        ]
+      },
+      "path": "~/Outfits"
+    },
+    {
+      "name": "InvisHelmRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_helm_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/invis_helm_recipe.json"
+        ]
+      },
+      "path": "~/Outfits"
+    },
+    {
+      "name": "InvisChestRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_chest_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/invis_chest_recipe.json"
+        ]
+      },
+      "path": "~/Outfits"
+    },
+    {
+      "name": "InvisPantsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_pants_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/invis_pants_recipe.json"
+        ]
+      },
+      "path": "~/Outfits"
+    },
+    {
+      "name": "InvisBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invis_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/alienevoaddons/recipes/invis_boots_recipe.json"
+        ]
+      },
+      "path": "~/Outfits"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "hasMasterControl",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "requestedDetransform",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "playerRequestedDetransform",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "deTransformCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "playerName",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {
+    "CUSTOM:AlienEvoOutfit": [
+      "InvisArmor",
+      "Ben10OG",
+      "AlbedoOG",
+      "Ben10AlienForceOutfit",
+      "AlbedoAlienForce",
+      "Ben10Omni",
+      "AlbedoOmni",
+      "Ben10Omnitrixless",
+      "AlbedoOmnitrixless",
+      "Ben10Reboot",
+      "AlbedoReboot"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.alienevoaddons.jetray": "Jetray",
+      "item.alienevoaddons.albedo_alien_force_chestplate.description_0": "From Albedo\u0027s Design in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.ben_10_omni_chestplate.description_0": "Design from Ben\u0027s Outfit in Omniverse",
+      "item.alienevoaddons.albedo_reboot_chestplate.description_0": "[Non-Canon] Inspired by Ben\u0027s design in the Reboot",
+      "item.alienevoaddons.ben_10_og_chestplate": "Ben 10 [Original] | Shirt",
+      "item.alienevoaddons.albedo_omnitrixless_boots": "Albedo [Omnitrixless] | Shoes",
+      "item.alienevoaddons.ben_10_reboot_chestplate": "Ben 10 [Reboot] | Shirt",
+      "item.alienevoaddons.ben_10_og_leggings": "Ben 10 [Original] | Pants",
+      "item.alienevoaddons.wildmutt": "Wildmutt",
+      "item.alienevoaddons.heatblast": "Heatblast",
+      "item.alienevoaddons.roll_of_fabric_light_blue": "Roll of Fabric [Light Blue]",
+      "item.alienevoaddons.echo_echo": "Echo Echo",
+      "gamerule.allowHelpingDetransform.description": "Allows players with Base Form (if enabled) and Master Control to detransform other players",
+      "item.alienevoaddons.roll_of_fabric_orange": "Roll of Fabric [Orange]",
+      "item.alienevoaddons.greymatter": "Greymatter",
+      "item.alienevoaddons.albedo_omni_leggings.description_0": "From Albedo\u0027s Design in Omniverse",
+      "item.alienevoaddons.roll_of_fabric_cyan": "Roll of Fabric [Cyan]",
+      "item.alienevoaddons.albedo_reboot_chestplate": "Albedo [Reboot] | Shirt",
+      "item.alienevoaddons.ben_10_og_chestplate.description_0": "From the Original Design of Ben from Ben 10 [OG]",
+      "item.alienevoaddons.ripjaws": "Ripjaws",
+      "item.alienevoaddons.cannonbolt": "Cannonbolt",
+      "item.alienevoaddons.ben_10_alien_force_outfit_boots": "Ben 10 [Alien Force] | Shoes",
+      "item.alienevoaddons.ben_10_reboot_boots.description_0": "Design from Ben\u0027s Outfit in the Reboot",
+      "item.alienevoaddons.ben_10_reboot_leggings.description_0": "Design from Ben\u0027s Outfit in the Reboot",
+      "item.alienevoaddons.albedo_og_boots.description_0": "From Albedo\u0027s Young Design in Omniverse",
+      "item.alienevoaddons.omnitrix_icon": "Omnitrix Icon",
+      "item.alienevoaddons.roll_of_fabric_pink": "Roll of Fabric [Pink]",
+      "item.alienevoaddons.invis_armor_leggings": "Invisible Leggings",
+      "item.alienevoaddons.albedo_reboot_boots.description_0": "[Non-Canon] Inspired by Ben\u0027s design in the Reboot",
+      "item.alienevoaddons.invis_armor_chestplate": "Invisible Chestplate",
+      "item.alienevoaddons.albedo_omni_chestplate": "Albedo [Omniverse] | Shirt",
+      "item.alienevoaddons.ben_10_omnitrixless_chestplate.description_0": "Design from No Watch Ben in Omniverse",
+      "item.alienevoaddons.roll_of_fabric_yellow": "Roll of Fabric [Yellow]",
+      "item.alienevoaddons.albedo_omni_boots.description_0": "From Albedo\u0027s Design in Omniverse",
+      "item.alienevoaddons.ben_10_omnitrixless_chestplate": "Ben 10 [Omnitrixless] | Shirt",
+      "item.alienevoaddons.ben_10_alien_force_outfit_leggings": "Ben 10 [Alien Force] | Under",
+      "item.alienevoaddons.albedo_omnitrixless_leggings.description_0": "[Non-Canon] Inspired by No Watch Ben\u0027s design in Omniverse",
+      "item.alienevoaddons.ben_10_og_boots": "Ben 10 [Original] | Shoes",
+      "item.alienevoaddons.roll_of_fabric_blue": "Roll of Fabric [Blue]",
+      "item.alienevoaddons.ben_10_omni_chestplate": "Ben 10 [Omniverse] | Shirt",
+      "item.alienevoaddons.roll_of_fabric_white": "Roll of Fabric [White]",
+      "item.alienevoaddons.albedo_alien_force_leggings": "Albedo [Alien Force] | Under",
+      "item.alienevoaddons.ben_10_omnitrixless_leggings": "Ben 10 [Omnitrixless] | Pants",
+      "item.alienevoaddons.albedo_alien_force_boots": "Albedo [Alien Force] | Shoes",
+      "item.alienevoaddons.invis_armor_helmet": "Invisible Helmet",
+      "item.alienevoaddons.roll_of_fabric_green": "Roll of Fabric [Green]",
+      "gamerule.masterControlTimer": "Master Control Timer",
+      "item.alienevoaddons.ghostfreak": "Ghostfreak",
+      "item.alienevoaddons.ben_10_alien_force_outfit_chestplate.description_0": "Design from Ben\u0027s Outfit in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.roll_of_fabric_brown": "Roll of Fabric [Brown]",
+      "item.alienevoaddons.albedo_omnitrixless_chestplate": "Albedo [Omnitrixless] | Shirt",
+      "item.alienevoaddons.albedo_og_leggings.description_0": "From Albedo\u0027s Young Design in Omniverse",
+      "item.alienevoaddons.chromastone": "Chromastone",
+      "item_group.alienevoaddons.alien_icons": "AE Addon | Icons",
+      "item.alienevoaddons.albedo_omnitrixless_chestplate.description_0": "[Non-Canon] Inspired by No Watch Ben\u0027s design in Omniverse",
+      "item.alienevoaddons.albedo_reboot_leggings.description_0": "[Non-Canon] Inspired by Ben\u0027s design in the Reboot",
+      "item.alienevoaddons.four_arms": "Four Arms",
+      "item.alienevoaddons.roll_of_fabric_light_grey": "Roll of Fabric [Light Grey]",
+      "item.alienevoaddons.ben_10_omni_leggings": "Ben 10 [Omniverse] | Pants",
+      "item.alienevoaddons.albedo_og_chestplate.description_0": "From Albedo\u0027s Young Design in Omniverse",
+      "item.alienevoaddons.ben_10_omni_boots.description_0": "Design from Ben\u0027s Outfit in Omniverse",
+      "item.alienevoaddons.ben_10_alien_force_outfit_chestplate": "Ben 10 [Alien Force] | Jacket",
+      "item.alienevoaddons.ben_10_omni_boots": "Ben 10 [Omniverse] | Shoes",
+      "item.alienevoaddons.albedo_og_leggings": "Albedo [Young] | Pants",
+      "item.alienevoaddons.ben_10_reboot_chestplate.description_0": "Design from Ben\u0027s Outfit in the Reboot",
+      "item.alienevoaddons.roll_of_fabric_black": "Roll of Fabric [Black]",
+      "item.alienevoaddons.albedo_reboot_leggings": "Albedo [Reboot] | Pants",
+      "gamerule.baseFormHelpingDetransformation": "Base Form Helping Detransformation",
+      "item.alienevoaddons.albedo_omni_boots": "Albedo [Omniverse] | Shoes",
+      "gamerule.masterControlTimer.description": "Players detransformed by a player with Master Control will be able to instantly transform",
+      "item_group.alienevoaddons.alien_evo_outfit": "AE Addon | Outfits",
+      "item.alienevoaddons.albedo_alien_force_boots.description_0": "From Albedo\u0027s Design in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.diamond_head": "Diamond Head",
+      "item.alienevoaddons.xlr_8": "XLR8",
+      "item.alienevoaddons.albedo_reboot_boots": "Albedo [Reboot] | Shoes",
+      "item.alienevoaddons.roll_of_fabric_red": "Roll of Fabric [Red]",
+      "gamerule.baseFormHelpingDetransformation.description": "Enables the use of players with Base Form to help detransform other players",
+      "item.alienevoaddons.roll_of_fabric_purple": "Roll of Fabric [Purple]",
+      "item.alienevoaddons.ben_10_omnitrixless_boots.description_0": "Design from No Watch Ben in Omniverse",
+      "item.alienevoaddons.albedo_alien_force_chestplate": "Albedo [Alien Force] | Jacket",
+      "gamerule.allowHelpingDetransform": "Allow Helping Detransform",
+      "item.alienevoaddons.albedo_omni_leggings": "Albedo [Omniverse] | Pants",
+      "item.alienevoaddons.ben_10_og_boots.description_0": "From the Original Design of Ben from Ben 10 [OG]",
+      "item.alienevoaddons.albedo_omni_chestplate.description_0": "From Albedo\u0027s Design in Omniverse",
+      "item.alienevoaddons.ben_10_reboot_boots": "Ben 10 [Reboot] | Shoes",
+      "item.alienevoaddons.ben_10_alien_force_outfit_leggings.description_0": "Design from Ben\u0027s Outfit in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.stinkfly": "Stinkfly",
+      "item.alienevoaddons.albedo_omnitrixless_leggings": "Albedo [Omnitrixless] | Pants",
+      "item.alienevoaddons.ben_10_reboot_leggings": "Ben 10 [Reboot] | Pants",
+      "item.alienevoaddons.ben_10_omni_leggings.description_0": "Design from Ben\u0027s Outfit in Omniverse",
+      "item.alienevoaddons.albedo_og_boots": "Albedo [Young] | Shoes",
+      "item.alienevoaddons.ben_10_omnitrixless_boots": "Ben 10 [Omnitrixless] | Shoes",
+      "item.alienevoaddons.ben_10_omnitrixless_leggings.description_0": "Design from No Watch Ben in Omniverse",
+      "item.alienevoaddons.roll_of_fabric_lime": "Roll of Fabric [Lime]",
+      "item.alienevoaddons.albedo_alien_force_leggings.description_0": "From Albedo\u0027s Design in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.albedo_og_chestplate": "Albedo [Young] | Shirt",
+      "item.alienevoaddons.atomix": "Atomix",
+      "item.alienevoaddons.invis_armor_boots": "Invisible Boots",
+      "item.alienevoaddons.roll_of_fabric_grey": "Roll of Fabric [Grey]",
+      "item.alienevoaddons.roll_of_fabric_magenta": "Roll of Fabric [Magenta]",
+      "item.alienevoaddons.upgrade": "Upgrade",
+      "item.alienevoaddons.swampfire": "Swampfire",
+      "item.alienevoaddons.big_chill": "Big Chill",
+      "item_group.alienevoaddons.alien_evo_addons_fabrics": "AE Addons | Fabric",
+      "item.alienevoaddons.ben_10_og_leggings.description_0": "From the Original Design of Ben from Ben 10 [OG]",
+      "item.alienevoaddons.ben_10_alien_force_outfit_boots.description_0": "Design from Ben\u0027s Outfit in Alien Force/Ultimate Alien",
+      "item.alienevoaddons.albedo_omnitrixless_boots.description_0": "[Non-Canon] Inspired by No Watch Ben\u0027s design in Omniverse",
+      "item.alienevoaddons.humungousaur": "Humungousaur"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "DeTransformation",
+        "children": []
+      },
+      {
+        "name": "Outfits",
+        "children": [
+          {
+            "name": "BenAlienForce",
+            "children": []
+          },
+          {
+            "name": "BenOG",
+            "children": []
+          },
+          {
+            "name": "BenOmni",
+            "children": []
+          },
+          {
+            "name": "BenOmnitrixless",
+            "children": []
+          },
+          {
+            "name": "BenReboot",
+            "children": []
+          },
+          {
+            "name": "AlbedoYoung",
+            "children": []
+          },
+          {
+            "name": "AlbedoAlienForce",
+            "children": []
+          },
+          {
+            "name": "AlbedoOmni",
+            "children": []
+          },
+          {
+            "name": "AlbedoOmnitrixless",
+            "children": []
+          },
+          {
+            "name": "AlbedoReboot",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GameRules",
+        "children": []
+      },
+      {
+        "name": "AlienIcons",
+        "children": []
+      },
+      {
+        "name": "Fabrics",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alienevoaddons",
+    "modName": "Alien Evo | Addons",
+    "version": "1.0.0",
+    "description": "An Addition to Alien Evolution to add new mechanics, cosmetics, and compatibility (NOT AFFILIATED WITH THE ALIEN EVO TEAM!)",
+    "author": "Zexa",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/alienevo",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "ultimatealienevo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "cosmetic_armory"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": " ",
+    "modElementsPackage": "net.mcreator.alienevoaddons"
+  },
+  "mcreatorVersion": 202400452410
+}

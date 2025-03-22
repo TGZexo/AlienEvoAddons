@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ben10OG.legs"
+    },
+    "name": "benog_pants",
+    "namespace": "mod"
+  }
+}

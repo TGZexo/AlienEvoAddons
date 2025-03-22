@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bac",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "alienevoaddons:roll_of_fabric_black"
+    },
+    "b": {
+      "item": "alienevoaddons:roll_of_fabric_green"
+    },
+    "c": {
+      "item": "alienevoaddons:roll_of_fabric_white"
+    }
+  },
+  "result": {
+    "item": "alienevoaddons:ben_10_reboot_chestplate",
+    "count": 1
+  }
+}

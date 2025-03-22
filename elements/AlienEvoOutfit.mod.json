@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "AE Addon | Outfits",
+    "icon": {
+      "value": "CUSTOM:Ben10AlienForceOutfit.body"
+    },
+    "showSearch": true
+  }
+}

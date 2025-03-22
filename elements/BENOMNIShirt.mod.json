@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricGreen"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBlack"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ben10Omni.body"
+    },
+    "name": "benomni_shirt",
+    "namespace": "mod"
+  }
+}

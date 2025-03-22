@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#3"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.WOOL#3"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL#3"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RollOfFabricLightBlue"
+    },
+    "name": "roll_of_fabric_light_blue_recipe",
+    "namespace": "mod"
+  }
+}

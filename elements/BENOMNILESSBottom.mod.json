@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RollOfFabricBrown"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBrown"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBrown"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricRed"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RollOfFabricOrange"
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBrown"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RollOfFabricBrown"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Ben10Omnitrixless.legs"
+    },
+    "name": "benomniless_bottom",
+    "namespace": "mod"
+  }
+}
